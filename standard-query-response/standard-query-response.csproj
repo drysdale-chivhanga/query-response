@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <RootNamespace>Drysdale.Standard.Query.Response</RootNamespace>
+    <AssemblyName>Drysdale.Standard.Query.Response</AssemblyName>
+    <ApplicationIcon>Mucheka-Wakasunga-Beta.ico</ApplicationIcon>
+    <Authors>Drysdale Chivhanga</Authors>
+    <Company>Sterp</Company>
+    <Description>A Standard Query Response by Drysdale Chivhanga</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/drysdale-chivhanga/query-response</PackageProjectUrl>
+    <PackageReleaseNotes>The first version</PackageReleaseNotes>
+    <PackageIcon>Mucheka-Wakasunga-Beta.png</PackageIcon>
+    <PackageIconUrl />
+    <Version>1.0.1</Version>
+  </PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+	</PropertyGroup>
+	<ItemGroup>
+	  <None Include="..\..\Mucheka-Wakasunga-Beta.png">
+	    <Pack>True</Pack>
+	    <PackagePath></PackagePath>
+	  </None>
+	</ItemGroup>
+
+</Project>
