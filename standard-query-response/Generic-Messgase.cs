@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Drysdale.Standard.Query.Response
+﻿namespace Drysdale.Standard.Query.Response
 {
     /// <summary>
     /// Class.Message

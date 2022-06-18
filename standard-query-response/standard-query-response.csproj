@@ -13,13 +13,13 @@
     <PackageReleaseNotes>The first version</PackageReleaseNotes>
     <PackageIcon>Mucheka-Wakasunga-Beta.png</PackageIcon>
     <PackageIconUrl />
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
   </PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
 	</PropertyGroup>
 	<ItemGroup>
-	  <None Include="..\..\Mucheka-Wakasunga-Beta.png">
+	  <None Include="..\Mucheka-Wakasunga-Beta.png">
 	    <Pack>True</Pack>
 	    <PackagePath></PackagePath>
 	  </None>
