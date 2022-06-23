@@ -10,10 +10,12 @@
     <Description>A Standard Query Response by Drysdale Chivhanga</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/drysdale-chivhanga/query-response</PackageProjectUrl>
-    <PackageReleaseNotes>The first version</PackageReleaseNotes>
+    <PackageReleaseNotes>Added The Option For Raw Status</PackageReleaseNotes>
     <PackageIcon>Mucheka-Wakasunga-Beta.png</PackageIcon>
     <PackageIconUrl />
-    <Version>1.0.2</Version>
+    <Version>1.0.3</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <RepositoryUrl>https://github.com/drysdale-chivhanga/query-response</RepositoryUrl>
   </PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
