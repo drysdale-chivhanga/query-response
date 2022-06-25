@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Drysdale.Standard.Query.Response</name>
+    </assembly>
+    <members>
+        <member name="T:Drysdale.Standard.Query.Response.Message">
+            <summary>
+            Class.Message
+            </summary>
+        </member>
+        <member name="M:Drysdale.Standard.Query.Response.Message.AddSuccess(System.String)">
+            <summary>
+            AddSuccess
+            </summary>
+            <param name="modelName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Drysdale.Standard.Query.Response.Message.QuerySuccess(System.String)">
+            <summary>
+            QuerySuccess
+            </summary>
+            <param name="modelName"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Drysdale.Standard.Query.Response.QueryResponse">
+            <summary>
+            Query.Response
+            </summary>
+        </member>
+        <member name="P:Drysdale.Standard.Query.Response.QueryResponse.Code">
+            <summary>
+            Code
+            </summary>
+        </member>
+        <member name="P:Drysdale.Standard.Query.Response.QueryResponse.Message">
+            <summary>
+            Message
+            </summary>
+        </member>
+    </members>
+</doc>

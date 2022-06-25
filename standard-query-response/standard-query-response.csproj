@@ -10,15 +10,18 @@
     <Description>A Standard Query Response by Drysdale Chivhanga</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/drysdale-chivhanga/query-response</PackageProjectUrl>
-    <PackageReleaseNotes>Added The Option For Raw Status</PackageReleaseNotes>
+    <PackageReleaseNotes>Added the build Xml Comments</PackageReleaseNotes>
     <PackageIcon>Mucheka-Wakasunga-Beta.png</PackageIcon>
     <PackageIconUrl />
-    <Version>1.0.3</Version>
+    <Version>1.0.5</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <RepositoryUrl>https://github.com/drysdale-chivhanga/query-response</RepositoryUrl>
   </PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+	  <DocumentationFile>D:\Softwares\Pesinari\standard-query-response\standard-query-response\Drysdale.Standard.Query.Response.xml</DocumentationFile>
 	</PropertyGroup>
 	<ItemGroup>
 	  <None Include="..\Mucheka-Wakasunga-Beta.png">
