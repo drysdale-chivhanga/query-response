@@ -1,7 +1,7 @@
 ﻿namespace Drysdale.Standard.Query.Response
 {
     /// <summary>
-    /// Class.Message
+    /// Class.Generic.Operational.Message
     /// </summary>
     public class Message
     {
@@ -30,6 +30,15 @@
         /// <param name="modelName"></param>
         /// <returns></returns>
         public static string DuplcateError(string modelName) => $"Duplicate {modelName}, Detected!";
+        #endregion
+
+        #region NotFoundError(404)...
+        /// <summary>
+        /// NotFoundError(404)
+        /// </summary>
+        /// <param name="modelName"></param>
+        /// <returns></returns>
+        public static string NotFoundError(string modelName) => $"{modelName}, Not Found!";
         #endregion
 
         #region TechError...

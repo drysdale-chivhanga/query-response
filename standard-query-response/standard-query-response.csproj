@@ -10,10 +10,10 @@
     <Description>A Standard Query Response by Drysdale Chivhanga</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/drysdale-chivhanga/query-response</PackageProjectUrl>
-    <PackageReleaseNotes>Added Generic Technical Error Message</PackageReleaseNotes>
+    <PackageReleaseNotes>Added Generic Not-Found Error Message</PackageReleaseNotes>
     <PackageIcon>Mucheka-Wakasunga-Beta.png</PackageIcon>
     <PackageIconUrl />
-    <Version>1.0.7</Version>
+    <Version>1.0.8</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <RepositoryUrl>https://github.com/drysdale-chivhanga/query-response</RepositoryUrl>
   </PropertyGroup>

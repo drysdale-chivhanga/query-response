@@ -6,7 +6,7 @@
     <members>
         <member name="T:Drysdale.Standard.Query.Response.Message">
             <summary>
-            Class.Message
+            Class.Generic.Operational.Message
             </summary>
         </member>
         <member name="M:Drysdale.Standard.Query.Response.Message.AddSuccess(System.String)">
@@ -26,6 +26,13 @@
         <member name="M:Drysdale.Standard.Query.Response.Message.DuplcateError(System.String)">
             <summary>
             DuplcateError
+            </summary>
+            <param name="modelName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Drysdale.Standard.Query.Response.Message.NotFoundError(System.String)">
+            <summary>
+            NotFoundError(404)
             </summary>
             <param name="modelName"></param>
             <returns></returns>
