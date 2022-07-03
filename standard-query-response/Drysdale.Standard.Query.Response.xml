@@ -23,6 +23,21 @@
             <param name="modelName"></param>
             <returns></returns>
         </member>
+        <member name="M:Drysdale.Standard.Query.Response.Message.DuplcateError(System.String)">
+            <summary>
+            DuplcateError
+            </summary>
+            <param name="modelName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Drysdale.Standard.Query.Response.Message.TechError(System.String,System.String)">
+            <summary>
+            TechError
+            </summary>
+            <param name="functionName"></param>
+            <param name="messageDetails"></param>
+            <returns>The Tecnical Error Message</returns>
+        </member>
         <member name="T:Drysdale.Standard.Query.Response.QueryResponse">
             <summary>
             Query.Response
